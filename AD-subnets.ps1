@@ -29,3 +29,6 @@ ForEach ($Subnet in $Subnets) {
 
 ## Export the array as a CSV file
 $ResultsArray | Sort Subnet | Export-Csv .\AD-Subnets.csv -nti
+
+
+#test
