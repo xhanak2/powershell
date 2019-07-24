@@ -1,0 +1,1 @@
+﻿(Get-ADUser -searchbase "OU=Users,OU=ESP,OU=EU,DC=grouphc,DC=net" -filter *).count
