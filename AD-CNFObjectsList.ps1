@@ -4,5 +4,5 @@
 
 # For one domain
 
- "grouphc.net"| ForEach-Object {Get-ADObject -LDAPFilter "(|(cn=*\0ACNF:*)(ou=*CNF:*))" -Server $_ -properties *}|Out-GridView
+ "itc.itcgr.net"| ForEach-Object {Get-ADObject -LDAPFilter "(|(cn=*\0ACNF:*)(ou=*CNF:*))" -Server $_ -properties *}|Out-GridView
 
